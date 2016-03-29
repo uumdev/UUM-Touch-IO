@@ -1,9 +1,12 @@
-<ons-page>
+<ons-page ng-controller="PageCtrl">
 <ons-toolbar>
   <div class="center">Title</div>
 </ons-toolbar>
 
 <p style="text-align: center">
   <ons-button modifier="light" ng-click="mynavi.pushPage('index.html');">Back</ons-button>
+
+  <ons-button modifier="light"  ng-click="available()">Touch ID available?</ons-button>
+  <ons-button modifier="light"  ng-click="scan()">Scan fingerprint</ons-button>
 </p>
 </ons-page>
