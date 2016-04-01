@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="my.uum.touchio" version="1.0.3">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="my.uum.touchio" version="1.0.4">
   <name>UUM Touch IO</name>
   <description>Hello World sample application that responds to the deviceready event.</description>
   <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
@@ -21,7 +21,7 @@
   <preference name="android-installLocation" value="auto"/>
 
   <plugin name="org.apache.cordova.geolocation"/>
-  <plugin name="nl.x-services.plugins.touchid" spec="1.0.0" source="pgb" />
+  <plugin name="uk.co.ilee.touchid" spec="0.2.0" source="pgb" />
   <plugin name="cordova-plugin-whitelist" version="1"/>
 
   <icon src="icon.png"/>
