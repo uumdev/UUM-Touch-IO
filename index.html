@@ -1,8 +1,9 @@
 <html>
 <head></head>
 <body>
-	1.0.6
-<input type="button" value="Available" onclick="window.touchid.checkSupport(function(msg) {alert('ok: ' + msg)}, function(msg) {alert('not ok: ' + msg)});" />
-<input type="button" value="Scan" onclick="window.touchid.authenticate(function(msg) {alert('ok: ' + msg)}, function(msg) {alert('not ok: ' + JSON.stringify(msg))}, 'Scan Now!');" />
+	<br /><br /><br /><br />
+	1.0.7
+<button onclick="window.plugins.touchid.isAvailable(function(msg) {alert('ok: ' + msg)}, function(msg) {alert('not ok: ' + msg)})">Touch ID available?</button>
+<button onclick="window.plugins.touchid.verifyFingerprint('Scan your fingerprint please', function(msg) {alert('ok: ' + msg)}, function(msg) {alert('not ok: ' + JSON.stringify(msg))})">Scan fingerprint</button>
 </body>
 </html>
